@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DotnetMvc.Models;
 
-public class Movie
+public class ListModel
 {
     public int Id { get; set; }
     public string? Title { get; set; }
