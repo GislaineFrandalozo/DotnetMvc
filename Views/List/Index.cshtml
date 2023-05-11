@@ -1,15 +1,15 @@
 @model IEnumerable<DotnetMvc.Models.ListModel>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Lista";
 }
 
-<h1>Index</h1>
+<h1>Anotações</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="text-white" asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<table class="table text-white">
     <thead>
         <tr>
             <th>
@@ -30,16 +30,16 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
-            <td>
+            <td class="text-truncate" style="max-width: 15rem;">
                 @Html.DisplayFor(modelItem => item.Text)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ReleaseDate)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a class="text-white" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a class="text-success" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a class="text-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
 }
