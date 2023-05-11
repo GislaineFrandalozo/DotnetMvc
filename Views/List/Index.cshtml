@@ -27,10 +27,10 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
+            <td class="text-truncate" style="max-width: 8rem;">
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
-            <td class="text-truncate" style="max-width: 15rem;">
+            <td class="text-truncate" style="max-width: 14rem;">
                 @Html.DisplayFor(modelItem => item.Text)
             </td>
             <td>
