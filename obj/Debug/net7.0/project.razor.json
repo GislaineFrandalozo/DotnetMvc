@@ -18675,8 +18675,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/devgislaine/Documentos/pessoal/DotnetMvc/Views/List/Edit.cshtml",
+      "TargetPath": "Views\\List\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/devgislaine/Documentos/pessoal/DotnetMvc/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/devgislaine/Documentos/pessoal/DotnetMvc/Views/List/Details.cshtml",
+      "TargetPath": "Views\\List\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/devgislaine/Documentos/pessoal/DotnetMvc/Views/List/Index.cshtml",
+      "TargetPath": "Views\\List\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/devgislaine/Documentos/pessoal/DotnetMvc/Views/List/Create.cshtml",
+      "TargetPath": "Views\\List\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/devgislaine/Documentos/pessoal/DotnetMvc/Views/List/Delete.cshtml",
+      "TargetPath": "Views\\List\\Delete.cshtml",
       "FileKind": "mvc"
     }
   ],

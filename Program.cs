@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using DotnetMvc.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<DotnetMvcContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DotnetMvcContext") ?? throw new InvalidOperationException("Connection string 'DotnetMvcContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
